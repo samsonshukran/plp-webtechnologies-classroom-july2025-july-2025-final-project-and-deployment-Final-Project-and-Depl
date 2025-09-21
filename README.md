@@ -1,90 +1,95 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🏥 Health Hub
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Health Hub is an interactive, beginner-friendly health awareness web application designed to help users monitor their health, practice good habits, and learn about key health concepts in an engaging way.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+🌟 Features
+📌 1. Home Page
 
----
+Overview of Health Components – Physical, Mental, Social, and Spiritual.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Videos that explain health information, practices, and promotion.
 
-Before you write any code, take time to plan:
+📌 2. About Page
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Mission and goal of Health Hub.
 
-**Goal:** Show intentional structure and user journey across the site.
+Developer section introducing the creator and purpose of the project.
 
----
+📌 3. Services Page
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Your interactive health toolkit, including:
 
-Using your plan, begin building:
+Personal Hygiene & Food Nutrition Sections – Video-based health education + popup guides.
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Health Monitor Form – Submit your temperature, symptoms, and mood for daily tracking.
 
-Each page should:
+BMI Calculator – Get instant Body Mass Index results.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+Daily Calorie Needs Calculator – Calculate required calorie intake based on age, gender, weight, height, and activity level.
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Water Intake Calculator – Personalized hydration goals.
 
----
+Mental Health Check-in – Quick self-assessment for emotional well-being.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+📌 4. Contact Page
 
-Before deployment, refactor your project to follow production-friendly practices:
+Contact form to collect user feedback and suggestions.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Links to the developer’s GitHub and LinkedIn profiles.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+📂 Project Structure
+healthhub/
+│
+├── index.html        # Home page
+├── about.html        # About page with project info and developer profile
+├── service.html      # Services page with tools and calculators
+├── contact.html      # Contact page with form and social links
+├── style.css         # Main stylesheet
+├── script.js         # JavaScript for popups, calculators, and interactivity
+└── media/            # Folder for images and videos used across the project
 
----
+🛠️ Technologies Used
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+HTML5 – Semantic structure and layout
 
-Once your project is complete, choose a method to **host your site online**.
+CSS3 – Styling, responsive design
 
-You can use:
+JavaScript – Interactivity (forms, calculators, popups)
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+Media (Videos & Images) – Engaging learning experience
 
-Deploy your project and confirm that:
+🎯 Goals
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+The goal of Health Hub is to:
+✅ Promote daily healthy habits
+✅ Educate users about health practices and their importance
+✅ Provide quick tools for personal health monitoring
+✅ Make health awareness more interactive and engaging
 
-**Goal:** Publish your work online and make it accessible to the world.
+🚀 Getting Started
 
----
+Clone this repository
 
-## Deliverables
+git clone https://github.com/samsonshukran/plp-webtechnologies-classroom-july2025-july-2025-final-project.git
 
-1. A GitHub repository containing:
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Open the project
 
----
+Navigate to the project folder.
 
-## Outcome
+Open index.html in your browser to explore the site.
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Navigation
+
+Use the navigation bar to visit About, Services, and Contact pages.
+
+Try the calculators and forms in the Services section.
+
+👨‍💻 Developer
+
+Samson Kalume
+Aspiring full-stack developer passionate about building interactive and meaningful web applications.
+
+🔗 GitHub
+
+🔗 LinkedIn

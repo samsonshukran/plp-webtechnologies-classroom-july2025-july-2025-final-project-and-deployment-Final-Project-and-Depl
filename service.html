@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <a href="index.html"><button  class="back">⇇Back</button></a>
+       <h1 class="services-offered"> Services Offered by Health Hub</h1>
+    </header>
+
+  
+
+
+    <!--main content-->
+    <main class="page-container">
+      
+        <div class="reminder" ><h2>Health Reminders</h2>
+          <div class="card-grid">
+            <div class="card-1"><h3>Personal Hygyien</h3>
+            <video class="video" controls>
+             <source  src="media/Personal hygiene.mp4" type="video/webm">
+            Your browser does not support video.
+            </video>
+            
+           <section class="popup-section">
+                   <div class="popup-btn-container">
+                          <button class="popup-btn" onclick="togglePopup()">🛁 Open Personal Hygiene</button>
+
+                          
+                            </div>
+                            <div id="popup" class="popup">
+                              <div class="popup-content">
+                                <span class="close-btn" onclick="togglePopup()">&times;</span>
+                                <h2>Personal Hygyien ✅</h2>
+                                <ul>
+                                  <li>Handwashing – Wash hands regularly with soap and water, especially before eating and after using the toilet.</li>
+                                  <li>Oral Hygiene – Brush teeth at least twice a day and floss regularly.</li>
+                                  <li>Bathing – Take regular showers or baths to keep the body clean and free from germs.</li>
+                                  <li>Clean Clothing – Wear clean clothes and change them daily.</li>
+                                  <li>Nail Care – Keep nails short and clean to avoid accumulation of dirt and germs.</li>
+                                  <li>Hair Care – Wash hair regularly to maintain scalp cleanliness and prevent dandruff or lice.</li>
+                                  <li>Safe Food Handling – Wash fruits and vegetables, cook food properly, and store it safely.</li>
+                                  <li>Cough & Sneeze Etiquette – Cover mouth and nose with a tissue or elbow when sneezing/coughing.</li>
+                                  <li>Toilet Hygiene – Use toilets properly, flush after use, and keep toilets clean.</li>
+                                  <li>Foot Care – Wash and dry feet well, especially between toes, to prevent infections like athlete’s foot.</li>
+                                </ul>
+
+                                
+
+                              </div>
+                            </div>
+           
+                          
+
+                                    </div>
+                                  
+                                   
+
+
+                                  
+
+                                    <div class="card-3"><h3>Food and Nutrition</h3>
+
+                                      <video class="video" controls>
+                                  <source  src="media/Food and  nutriton.mp4" type="video/webm">
+                                  Your browser does not support video.
+                                </video>
+
+                                        <div class="popup-btn-container">
+                                    <button class="popup-btn" onclick="openPopup()">Open Food & Nutrition</button>
+                                    </div>
+                                    </div>
+                                    <div class="popup" id="food">
+                            <div class="popup-content">
+                            <span class="close-btn" onclick="openPopup()">&times;</span>
+
+                          <h2>Food & Nutrition</h2>
+                          <p>Food and nutrition are essential for maintaining good health, growth, and energy. 
+                          Eating a balanced diet ensures the body gets all the nutrients it needs to function properly 
+                          and helps prevent malnutrition and lifestyle-related diseases.</p>
+
+                          <h3>Key Practices:</h3>
+                          <ul>
+                            <li><b>Balanced Diet:</b> Eat a variety of foods — carbohydrates, proteins, fruits, and vegetables — in the right amounts.</li>
+                            <li><b>Safe Food Handling:</b> Wash fruits and vegetables before eating, cook food thoroughly, and store leftovers safely.</li>
+                            <li><b>Regular Meals:</b> Eat breakfast, lunch, and dinner at consistent times to maintain energy levels.</li>
+                            <li><b>Hydration:</b> Drink enough clean water daily to stay hydrated and support body functions.</li>
+                            <li><b>Limit Junk Food:</b> Reduce intake of sugary drinks, fried snacks, and processed foods.</li>
+                          </ul>
+
+                          <h3>Benefits of Good Nutrition:</h3>
+                          <ul>
+                            <li>Strengthens the immune system and reduces risk of infections.</li>
+                            <li>Supports proper growth and development in children.</li>
+                            <li>Improves focus, memory, and overall mental performance.</li>
+                            <li>Helps maintain healthy weight and prevents lifestyle diseases.</li>
+                          </ul>
+
+                        
+                        </div>
+                        </div>
+
+                                    
+                                    </div>
+            </section>
+
+
+            <section class="card-2-grid">
+
+               <!-- Health Input Form -->
+                
+  <div class="health-section">
+    <h2>Health Monitor</h2>
+
+    <form id="healthForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="temp">Body Temperature (°C):</label>
+      <input type="number" step="0.1" id="temp" placeholder="e.g. 36.7" required>
+
+      <label for="symptoms">Symptoms:</label>
+      <textarea id="symptoms" rows="3" placeholder="e.g. Cough, fever..."></textarea>
+
+      <label for="status">Feeling Today:</label>
+      <select id="status">
+        <option value="😊 Good">😊 Good</option>
+        <option value="😐 Okay">😐 Okay</option>
+        <option value="🤒 Sick">🤒 Sick</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+ 
+
+  <!-- Data Review Table -->
+  <div class="review-section">
+    <h2>Submitted Health Data</h2>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Temperature</th>
+          <th>Symptoms</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will appear here -->
+      </tbody>
+    </table>
+  </div>
+
+
+</section>
+
+          
+
+
+<!-- BMI CALCULATOR -->
+<div class="health-section">
+  <h2 class="health-title">BMI Calculator</h2>
+  <label class="health-label">Weight (kg):</label>
+  <input type="number" id="bmiWeight" class="health-input" required> 
+
+  <label class="health-label">Height (cm):</label>
+  <input type="number" id="bmiHeight" class="health-input">
+
+  <button class="health-btn" onclick="calculateBMI()">Calculate BMI</button>
+  <div id="bmiResult" class="result-output"></div>
+</div>
+
+<!-- DAILY CALORIE NEEDS -->
+<div class="health-section">
+  <h2 class="health-title">Daily Calorie Needs</h2>
+  <label class="health-label">Age:</label>
+  <input type="number" id="age" class="health-input">
+
+  <label class="health-label">Gender:</label>
+  <select id="gender" class="health-select">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+
+  <label class="health-label">Weight (kg):</label>
+  <input type="number" id="calWeight" class="health-input">
+
+  <label class="health-label">Height (cm):</label>
+  <input type="number" id="calHeight" class="health-input">
+
+  <label class="health-label">Activity Level:</label>
+  <select id="activity" class="health-select">
+    <option value="1.2">Sedentary</option>
+    <option value="1.375">Light</option>
+    <option value="1.55">Moderate</option>
+    <option value="1.725">Active</option>
+    <option value="1.9">Very Active</option>
+  </select>
+
+  <button class="health-btn" onclick="calculateCalories()">Calculate Calories</button>
+  <div id="calorieResult" class="result-output"></div>
+</div>
+
+<!-- WATER INTAKE CALCULATOR -->
+<div class="health-section">
+  <h2 class="health-title">Water Intake Goal</h2>
+  <label class="health-label">Weight (kg):</label>
+  <input type="number" id="waterWeight" class="health-input">
+  <button class="health-btn" onclick="calculateWater()">Calculate Water Goal</button>
+  <div id="waterGoal" class="result-output"></div>
+</div>
+
+<!-- MENTAL HEALTH CHECK-IN -->
+<div class="health-section">
+  <h2 class="health-title">Mental Health Check-In</h2>
+  <p>How have you been feeling lately?</p>
+  <select id="mood" class="health-select">
+    <option value="good">Good</option>
+    <option value="okay">Okay</option>
+    <option value="sad">Sad</option>
+    <option value="anxious">Anxious</option>
+  </select>
+  <button class="health-btn" onclick="checkMentalHealth()">Check</button>
+  <div id="mentalResult" class="result-output"></div>
+</div>
+</div>
+
+
+        
+        
+   
+
+
+
+
+   
+   
+
+ 
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
