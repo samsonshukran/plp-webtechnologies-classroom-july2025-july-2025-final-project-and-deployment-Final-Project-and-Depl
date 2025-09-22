@@ -39,14 +39,21 @@ Links to the developer’s GitHub and LinkedIn profiles.
 
 📂 Project Structure
 healthhub/
-│
-├── index.html        # Home page
-├── about.html        # About page with project info and developer profile
-├── service.html      # Services page with tools and calculators
-├── contact.html      # Contact page with form and social links
-├── style.css         # Main stylesheet
-├── script.js         # JavaScript for popups, calculators, and interactivity
-└── media/            # Folder for images and videos used across the project
+
+ index.html        # Home page
+
+ about.html        # About page with project info and developer profile
+
+ service.html      # Services page with tools and calculators
+
+ contact.html      # Contact page with form and social links
+
+ style.css         # Main stylesheet
+
+ script.js         # JavaScript for popups, calculators, and interactivity
+
+ media/            # Folder for images and videos used across the project
+
 
 🛠️ Technologies Used
 
@@ -90,6 +97,6 @@ Try the calculators and forms in the Services section.
 Samson Kalume
 Aspiring full-stack developer passionate about building interactive and meaningful web applications.
 
-🔗 GitHub
+🔗 GitHub https://github.com/samsonshukran
 
-🔗 LinkedIn
+🔗 LinkedIn https://www.linkedin.com/in/samson-kalume-525a892b9/
